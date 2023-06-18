@@ -509,9 +509,9 @@ a.text-primary:focus,a.text-primary:hover{
 	
 	}
 @media (max-width:767px){
-.hidden-sm-down{
+/*.hidden-sm-down{
 	display:none!important
-	}
+	}*/
 	
 	}
 @media (min-width:768px){
@@ -2462,8 +2462,12 @@ body{
 .text-sm-left{
 	text-align:left!important
 	}
-	
+.parasmall{
+	width:130%;
+	font-size:10px;
 	}
+	}
+
 .site-header-wraper{
 	position:relative;
 	z-index:1020;
@@ -2737,6 +2741,7 @@ to{
 	}
 @media (max-width:767px){
 .row-form-item textarea[name=Comments],.row-form-item textarea[name=Message]{
+	height:150px!important
 	}
 	
 	}
@@ -4125,7 +4130,7 @@ img[alt="download icon"]{
 	border-bottom:none
 	}
 .footer-bottom p,.footer-bottom ul a{
-	font-size:.65rem!important
+	font-size:1rem!important
 	}
 .residential-section{
 	margin-top:30px
